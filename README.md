@@ -10,14 +10,14 @@ Bronze Layer – Source-of-truth data stored in Parquet format
 Silver Layer – Cleaned, enriched, SCD Type 2 implemented Delta tables
 Gold Layer – Aggregated fact and dimension tables for reporting
 
-##Azure Technology Stack Used
+## Azure Technology Stack Used
 Azure Data Factory (ADF) – Data ingestion & orchestration
 Azure Databricks – Data transformation & processing
 Azure SQL Database – EMR source system
 Azure Data Lake Storage Gen2 (ADLS) – Data storage
 Azure Key Vault – Secure credential management
 
-##Datasets
+## Datasets
 1. EMR Data (Azure SQL DB)
 Patients
 Providers
