@@ -5,17 +5,17 @@ Revenue Cycle Management (RCM) is the financial process used by hospitals to man
 
 ## Architecture Used:
 The solution is built using the Medallion Architecture:
-Landing Layer – Raw flat files from insurance providers
-Bronze Layer – Source-of-truth data stored in Parquet format
-Silver Layer – Cleaned, enriched, SCD Type 2 implemented Delta tables
-Gold Layer – Aggregated fact and dimension tables for reporting
+1. Landing Layer – Raw flat files from insurance providers
+2. Bronze Layer – Source-of-truth data stored in Parquet format
+3. Silver Layer – Cleaned, enriched, SCD Type 2 implemented Delta tables
+4. Gold Layer – Aggregated fact and dimension tables for reporting
 
 ## Azure Technology Stack Used
-Azure Data Factory (ADF) – Data ingestion & orchestration
-Azure Databricks – Data transformation & processing
-Azure SQL Database – EMR source system
-Azure Data Lake Storage Gen2 (ADLS) – Data storage
-Azure Key Vault – Secure credential management
+1. Azure Data Factory (ADF) – Data ingestion & orchestration
+2. Azure Databricks – Data transformation & processing
+3. Azure SQL Database – EMR source system
+4. Azure Data Lake Storage Gen2 (ADLS) – Data storage
+5. Azure Key Vault – Secure credential management
 
 ## Datasets
 1. EMR Data (Azure SQL DB)
